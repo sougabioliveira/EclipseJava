@@ -6,6 +6,10 @@ public class Preguica extends Animal {
 		System.out.println("Este animal sobe em árvores.");
 	}
 	
+	public void emitirSom() {
+		System.out.println("____________ - permanece no mais completo silêncio!");
+	}
+	
 	public static void main(String[] args) {
 		
 		Preguica pre = new Preguica();
@@ -15,8 +19,9 @@ public class Preguica extends Animal {
 		
 		System.out.println(pre.toString());
 		
-		pre.emitirSom();
 		pre.subirArvore();
+		pre.emitirSom();
+		
 	}
 	
 	

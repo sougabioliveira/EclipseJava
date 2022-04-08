@@ -8,11 +8,11 @@ public class Animal {
 	
 	@Override
 	public String toString() {
-		return "Animal [nome=" + nome + ", idade=" + idade + "]";
+		return "Animal [Nome: " + nome + ", Idade: " + idade + "]";
 	}
 
 
-	void emitirSom() {
+	public void emitirSom() {
 		System.out.println("Este animal emite som");
 	}
 	

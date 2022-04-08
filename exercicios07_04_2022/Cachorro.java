@@ -6,6 +6,9 @@ public class Cachorro extends Animal {
 		System.out.println("Este animal corre");	
 		}
 		
+		public void emitirSom() {
+			System.out.println("au au au au au!");
+		}
 		
 		public static void main(String[] args) {
 			
@@ -16,8 +19,9 @@ public class Cachorro extends Animal {
 			
 			System.out.println(cac.toString());
 			
-			cac.emitirSom();
 			cac.correr();
+			cac.emitirSom();
+			
 			
 			
 			

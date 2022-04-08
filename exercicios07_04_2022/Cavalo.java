@@ -6,6 +6,10 @@ public class Cavalo extends Animal {
 			System.out.println("Este animal galopa");
 		}
 		
+		public void emitirSom() {
+			System.out.println("relinchar relinchar relinchar!");
+		}
+		
 		
 		public static void main(String[] args) {
 			
@@ -16,8 +20,9 @@ public class Cavalo extends Animal {
 			
 			System.out.println(cav.toString());
 			
-			cav.emitirSom();
 			cav.correr();
+			cav.emitirSom();
+			
 		}
 		
 
